@@ -1,0 +1,10 @@
+.newton{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+}
+.hello-newton{
+    margin-left: 32px;
+    padding: 10px;
+    color: white;
+}
