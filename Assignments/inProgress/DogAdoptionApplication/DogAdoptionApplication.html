@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Dog Adoption Application</h1>
+    <div>
+        <form method="post">
+            <div>
+                <label for="name">Name: </label>
+                <input id="name" placeholder="Name" type="text" name="name" /><br>
+                <label for="phone">Phone: </label>
+                <input id="phone" placeholder="Phone Number" type="text" name="phone" /><br>
+                <label for="address">Address: </label>
+                <input id="address" placeholder="Address" type="text" name="address" /><br>
+                <input id="checkbox" type="checkbox" value="Have you ever lived with a Dog before?" />
+                <label for="checkbox"> Lived with a dog before </label>
+            </div>
+            <div>
+                <select id="multiSelect" name="breeds" multiple>
+                    <option value="labrador">Labrador</option>
+                    <option value="golden retreiver">Golden Retreiver</option>
+                    <option value="pug">Pug</option>
+                    <option value="husky">Husky</option>
+                    <option value="pomeranian">Pomeranian</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <input id="submit" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
