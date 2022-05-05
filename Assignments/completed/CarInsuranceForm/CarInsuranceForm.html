@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <form method="post">
+            <div>
+                <label for="name">Name</label>
+                <input id="name" type="text" required>
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input id="email" type="email" required>
+            </div>
+            <div>
+                <label for="gender">Gender</label>
+                <div>
+                    <input id="male" name="gender" type="radio" required>
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input id="female" name="gender" type="radio" required>
+                    <label for="female">Female</label>
+                </div>
+                <div>
+                    <input id="others" name="gender" type="radio" required>
+                    <label for="others">Others</label>
+                </div>
+            </div>
+            <div>
+                <Label for="cars">Car Brands</Label>
+                <select id="cars" required>
+                    <option>BMW</option>
+                    <option>Audi</option>
+                    <option>Mercedez</option>
+                </select>
+            </div>
+            <div>
+                <label for="carage">Car Age</label>
+                <input id="carage" type="number" required>
+            </div>
+            <div>
+                <label for="dop">Date of Purchase</label>
+                <input id="dop" type="date" required>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input id="password" type="password" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
