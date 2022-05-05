@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <form method="post">
+            <div>
+                <label for="name">Name: </label>
+                <input id="name" type="text" name="name" required>
+            </div>
+            <div>
+                <label for="email">E-mail: </label>
+                <input id="email" type="text" name="email" required>
+            </div>
+            <div>
+                <label for="password">Password: </label>
+                <input id="password" type="password" name="password" required>
+            </div>
+            <div>
+                <label for="age">Age: </label>
+                <input id="age" type="number" name="age" required>
+            </div>
+            <div>
+                <label for="dob">D.O.B</label>
+                <input id="dob" type="date" name="dob" required>
+            </div>
+            <div>
+                <label for="portfolio">Portfolio: </label>
+                <input id="portfolio" type="url" name="url" required>
+            </div>
+            <div>
+                <label for="gender">Gender: </label>
+                <div>
+                    <input id="male" name="gender" value="male" type="radio" required>
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input id="female" name="gender" value="female" type="radio" required>
+                    <label for="female">Female</label>
+                </div>
+                <div>
+                    <input id="other" name="gender" value="others" type="radio" required>
+                    <label for="other">Other</label>
+                </div>
+            </div>
+            <div>
+                <label for="laptop">Laptop Brands: </label>
+                <select id="laptop" name="laptop" required>
+                    <option id="apple" name="laptop" value="Apple">Apple</option>
+                    <option id="asus" name="laptop" value="Asus">Asus</option>
+                    <option id="hp" name="laptop" value="HP">HP</option>
+                </select>
+            </div>
+            <button id="submit" type="submit" value="Submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
