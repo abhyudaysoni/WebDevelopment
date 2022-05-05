@@ -11,28 +11,42 @@
 <body>
     <div>
         <form method="post">
-            <label for="name">Name</label>
-            <input id="name" type="text" name="name" placeholder="Name"><br>
-            <label for="email">E-mail</label>
-            <input id="email" type="text" name="email" placeholder="E-mail"><br>
-            <label for="gender">Gender </label>
-            <input id="gender" type="radio" name="gender">Male
-            <input id="gender" type="radio" name="gender">Female
-            <input id="gender" type="radio" name="gender">Other
-            <br>
-            <label for="cars">Cars</label>
-            <select id="cars" placeholder="None">
-                <option name="brands" value="BMW">BMW</option>
-                <option name="brands" value="Audi">Audi</option>
-                <option name="brands" value="Mercedez">Mercedez</option>
-            </select><br>
-            <label for="age">Age</label>
-            <input id="age" type="number" name="age" placeholder="Age"><br>
-            <label for="dob">D.O.B</label>
-            <input id="dob" type="date" name="dob"><br>
-            <label for="password">Password</label>
-            <input id="password" type="password" name="password" placeholder="Password"><br>
-            <input id="submit" type="submit" value="Submit" name="submit">
+            <div>
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" placeholder="Name" required>
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input id="email" type="text" name="email" placeholder="E-mail" required>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input id="password" type="password" name="password" placeholder="Password" required>
+            </div>
+            <div>
+                <label for="gender">Gender </label>
+                <input id="gender" type="radio" name="gender">Male
+                <input id="gender" type="radio" name="gender">Female
+                <input id="gender" type="radio" name="gender">Other
+
+            </div>
+            <div>
+                <label for="cars">Cars</label>
+                <select id="cars" placeholder="None">
+                    <option name="brands" value="BMW">BMW</option>
+                    <option name="brands" value="Audi">Audi</option>
+                    <option name="brands" value="Mercedez">Mercedez</option>
+                </select>
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input id="age" type="number" name="age" placeholder="Age" required>
+            </div>
+            <div>
+                <label for="dob">D.O.B</label>
+                <input id="dob" type="date" name="dob" required>
+            </div>
+            <button type="submit" id="submit" value="Submit">Submit</button>
         </form>
     </div>
 </body>
