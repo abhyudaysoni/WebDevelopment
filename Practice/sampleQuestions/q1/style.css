@@ -1,0 +1,10 @@
+.item-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    display: grid;
+    justify-content: center;
+    width: 400px;
+    grid-template-columns: 1fr 1fr;
+}
